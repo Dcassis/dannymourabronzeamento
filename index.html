@@ -22,113 +22,132 @@
 
 <body  style=background-color:#ff920f>
 
-<header class="bg-white">
+<header class="bg-white py-2">
     <div class="container d-flex justify-content-between">
         <img 
-       classs="object-fit-cover " src="./img/logo.png" alt="logo marca da empresa" height=100>
+       classs="object-fit-cover rounded-circle " src="./img/logo.png" alt="logo marca da empresa" height=100>
         <div class="d-flex justify-content-end my-auto">
-            <i class="bi bi-instagram fs-1 mx-4 text-warning icon-hover"></i>
-            <i class="bi bi-whatsapp fs-1 mx-4 text-warning icon-hover"></i>
+            <a href="https://www.instagram.com/dannymourabronzeamento?igsh=Y2g0ejc2cHlxZW1q" target="_blank" rel="noopener noreferrer">
+                <div class="icon-hover">
+                    <i class="bi bi-instagram fs-1 mx-4 text-warning icon-hover"></i>
+                </div>
+            </a>
+             <a href="https://wa.me/5579999460500?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20Danny%20Moura%20Bronzeamento%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o" target="_blank" style="text-decoration: none;">
+                <div class="icon-hover">
+                    <i class="bi bi-whatsapp fs-1 mx-4 text-warning icon-hover"></i>
+                </div>
+            </a>
         </div>
     </div>    
 </header>
 
-<!--Seção do card de serviços -->
-<section>
+<section class="container-md">
     <div class="position-relative text-center">
-    <img src="./img/praia.jpg" alt="imagem" class="img-fluid w-100" style="height:40rem">
+    <img src="./img/praia.jpg" alt="imagem" class="img-fluid w-75" style="height:30rem">
     <div class="position-absolute top-50 start-50 translate-middle text-white">
         <h1 class="fw-bold mb-4">Danny Moura Bronzeamento</h1>
         <h3 class="fw-semibold">Deixe a luz realçar a sua beleza</h3>
     </div>
     </div>
-    <h2 class="text-center text-white my-2 fs-1">Nossos Serviços</h2>
-    <div class="row my-4 mx-auto">
+</section>
+
+
+<!--Seção do card de serviços -->
+<section class="container-md flex-wrap">
+    <h2 class="text-center text-white my-2 fs-2">Nossos Serviços</h2>
+    <div class="d-flex row justify-content-around my-2 mx-auto g-3">
         <div class="col">
-            <div class="card" style="width: 18rem; height: 30rem">
-                <img src="./img/bronze_natural.jpg" class="card-img-top" alt="" style="height: 15rem">
+            <div class="card h-100">
+                <img src="./img/bronze_natural.jpg" class="card-img-top p-2 rounded-4 w-75 mx-auto" alt="" style="height: 200px">
                 <div class="card-body">
-                    <h3 class="fs-4 text-center">Bronzeamento natural</h2>
-                    <p class="card-text">Bronzeamento natural, com técnica segura e produtos de qualidade para um tom dourado, uniforme e duradouro.</p>
+                    <h3 class="fs-6 text-center bg-success rounded-2 p-2 text-white">Bronzeamento natural</h2>
+                    <p class="card-text fs-6 text-center">Bronzeamento natural, com técnica segura e produtos de qualidade para um tom dourado, uniforme e duradouro.</p>
                 </div>
             </div>
         </div>
         <div class="col">
-            <div class="card" style="width: 18rem; height:30rem";>
-                <img src="./img/bronze_maquina.webp" class="card-img-top" alt="" style="height: 15rem">
-                <div class="card-body">
-                    <h3 class="fs-4 text-center">Bronzeamento sem sol</h2>
-                    <p class="card-text">Bronzeado instantâneo, uniforme e natural, aplicado com jato profissional. Seguro, sem exposição ao sol e com resultado duradouro.</p>
-                </div>
+        <div class="card h-100">
+            <img src="./img/bronze_maquina.webp" class="card-img-top p-2 rounded-4 w-75 mx-auto" alt="" style="height: 200px">
+            <div class="card-body">
+                <h3 class="fs-6 text-center bg-success rounded-2 p-2 text-white">Bronzeamento sem sol</h3>
+                <p class="card-text fs-6 text-center">Bronzeado instantâneo, uniforme e natural, aplicado com jato profissional. Seguro, sem exposição ao sol e com resultado duradouro.</p>
             </div>
         </div>
+        </div>
         <div class="col">
-            <div class="card" style="width: 18rem; height: 30rem">
-                <img src="./img/bronze_jato.jpeg" class="card-img-top" alt="" style="height: 15rem">
+            <div class="card h-100" >
+                <img src="./img/bronze_jato.jpeg" class="card-img-top p-2 rounded-4 w-75 mx-auto" alt="" style="height: 200px">
                 <div class="card-body">
-                    <h3 class="fs-4 text-center">Bronzeamento a jato</h2>
-                    <p class="card-text">Bronzeado instantâneo, uniforme e sem exposição ao sol. Aplicação segura com jato profissional para um resultado natural e duradouro.</p>
+                    <h3 class="fs-6 text-center bg-success rounded-2 p-2 text-white">Bronzeamento a jato</h3>
+                    <p class="card-text fs-6 text-center">Bronzeado instantâneo, uniforme e sem exposição ao sol. Aplicação segura com jato profissional para um resultado natural e duradouro.</p>
                 </div>
             </div>
         </div> 
-        <div class="col">
-            <div class="card" style="width: 18rem; height: 30rem">
-                <img src="./img/banho_sol.jpg" class="card-img-top" alt="" style="height: 15rem">
+        </div> 
+    </div>
+    <div class="d-flex justify-content-around row my-2 mx-auto g-3"> 
+        <div class="col-4">
+            <div class="card h-100">
+                <img src="./img/banho_sol.jpg" class="card-img-top p-2 rounded-4 w-75 mx-auto" alt="" style="height: 200px">
                 <div class="card-body">
-                    <h3 class="fs-4 text-center">Banho de sol</h2>
-                    <p class="card-text">Sessão controlada de exposição ao sol para ativar a melanina e potencializar o bronzeado de forma natural e segura.</p>
+                    <h3 class="fs-6 text-center bg-success rounded-2 p-2 text-white">Banho de sol</h3>
+                    <p class="card-text fs-6 text-center">Sessão controlada de exposição ao sol para ativar a melanina e potencializar o bronzeado de forma natural e segura.</p>
                 </div>
             </div>
         </div> 
-        <div class="col">
-            <div class="card" style="width: 18rem; height: 30rem">
-                <img src="./img/pelos-descoloridos.webp" class="card-img-top" alt="" style="height: 15rem">
+        <div class="col-4">
+            <div class="card h-100">
+                <img src="./img/pelos-descoloridos.webp" class="card-img-top p-2 rounded-4 w-75 mx-auto" alt="" style="height: 200px">
                 <div class="card-body">
-                    <h3 class="fs-4 text-center">Descoloração de pelos</h2>
-                    <p class="card-text">Realce sua pele com um efeito dourado e iluminado! Nossa técnica segura deixa os pelos mais claros, proporcionando um toque suave e um brilho incrível para destacar ainda mais o seu bronze.</p>
+                    <h3 class="fs-6 text-center bg-success rounded-2 p-2 text-white">Descoloração de pelos</h2>
+                    <p class="card-text fs-6 text-center">Realce sua pele com um efeito dourado e iluminado! Nossa técnica segura deixa os pelos mais claros, proporcionando um toque suave e um brilho incrível para destacar ainda mais o seu bronze.</p>
                 </div>
             </div>
         </div> 
     </div>
 </section>
+    </section>
+     
 
 <!--Seção de agendamento-->
 <section class="bg-white">
+    <a href="https://wa.me/5579999460500?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20Danny%20Moura%20Bronzeamento%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o" target="_blank" style="text-decoration: none;">
     <div class="d-flex justify-content-center p-4 icon-hover">
         <i class="bi bi-whatsapp fs-1 my-auto text-warning mx-2"></i>
         <h2 class="text-center fs-2 fw-bolder my-auto text-warning">Agende Aqui!</h2>
     </div>
+</a>
 </section>
             
 <!--Seção de Depoimentos de Clientes-->
 <section class="my-4 mx-auto">
         <h2 class="text-center text-white my-2 fs-1">Depoimentos de Clientes</h2>
-        <div class="row mt-5">
-    <div class="row gap-2">
-        <div class="col">
-            <div class="card mx-auto" style="width: 18rem; height: 35rem">
-                <img src="./img/mary.jpeg" class="card-img-top rounded-circle mx-auto" alt="" style="width:13rem; height: 15rem" >
-                <div class="card-body">
+        <div class="row mt-2">
+    <div class="flex justify-content-around row g-3">
+        <div class="col-3">
+            <div class="card mx-auto h-100">
+                <img src="./img/mary.jpeg" class="card-img-top rounded-circle mx-auto w-75 p-2" alt="" style="height: 200px" >
+                <div class="card-body bg-warning-subtle">
                     <h3 class="fs-4 text-center">Mary</h2>
-                    <p class="card-text">"Simplesmente apaixonada pelo Danny Moura Bronzeamento! O atendimento é impecável, o ambiente super aconchegante e o serviço de altíssima qualidade. O resultado foi incrível, com um bronzeado uniforme e natural. Confio totalmente no profissionalismo da equipe e recomendo de olhos fechados!"</p>
+                    <p class="card-text fs-6 text-center">"Simplesmente apaixonada pelo Danny Moura Bronzeamento! O atendimento é impecável, o ambiente super aconchegante e o serviço de altíssima qualidade. O resultado foi incrível, com um bronzeado uniforme e natural. Confio totalmente no profissionalismo da equipe e recomendo de olhos fechados!"</p>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card mx-auto" style="width: 18rem;height: 35rem">
-                <img src="./img/mulher_gorda.jpg" class="card-img-top rounded-circle mx-auto" alt="" style="width:13rem; height: 15rem" >
-                <div class="card-body">
+        <div class="col-3">
+            <div class="card mx-auto h-100">
+                <img src="./img/mulher_gorda.jpg" class="card-img-top rounded-circle mx-auto w-75 p-2" alt="" style="height: 200px" >
+                <div class="card-body bg-warning-subtle">
                     <h3 class="fs-4 text-center">Paula</h2>
-                    <p class="card-text">"O Danny Moura Bronzeamento oferece um serviço impecável por um preço justo! O atendimento é atencioso, o ambiente é agradável e o resultado supera as expectativas. Confio totalmente no trabalho da equipe e recomendo para quem busca um bronze perfeito e seguro!"</p>
+                    <p class="card-text fs-6 text-center ">"O Danny Moura Bronzeamento oferece um serviço impecável por um preço justo! O atendimento é atencioso, o ambiente é agradável e o resultado supera as expectativas. Confio totalmente no trabalho da equipe e recomendo para quem busca um bronze perfeito e seguro!"</p>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card mx-auto" style="width: 18rem;height: 35rem">
-                <img src="./img/rosto_morena.jpeg" class="card-img-top rounded-circle mx-auto" alt="" style="width:13rem; height: 15rem" >
-                <div class="card-body">
+        <div class="col-3">
+            <div class="card mx-auto h-100">
+                <img src="./img/rosto_morena.jpeg" class="card-img-top rounded-circle mx-auto w-75" alt="" style="height: 200px">
+                <div class="card-body bg-warning-subtle">
                     <h3 class="fs-4 text-center">Tatiane</h2>
-                    <p class="card-text">"Fiz meu bronze no Danny Moura Bronzeamento e fiquei simplesmente encantada! O resultado ficou perfeito, uniforme e realçou minha beleza de forma natural. Me senti mais confiante e com a autoestima renovada. Sem dúvida, o melhor lugar para um bronze impecável!"</p>
+                    <p class="card-text fs-6 text-center">"Fiz meu bronze no Danny Moura Bronzeamento e fiquei simplesmente encantada! O resultado ficou perfeito, uniforme e realçou minha beleza de forma natural. Me senti mais confiante e com a autoestima renovada. Sem dúvida, o melhor lugar para um bronze impecável!"</p>
                 </div>
             </div>
         </div>
@@ -147,12 +166,21 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.1069244037253!2d-37.0914084!3d-10.8794715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab114dbd99bf7%3A0x9995d30b0e063b2e!2sDanny%20Moura%20Brozeamento%20Natural%20Bronze%20Gelado%20Sal%C3%A3o%20e%20Studio!5e0!3m2!1spt-BR!2sbr!4v1743341182981!5m2!1spt-BR!2sbr" width="75%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="col m-auto">
-            <h3 class="text-warning fs-4"><span class="fw-bold fst-italic">Endereço:</span> Rua Maria Salomé Nunes Vasconcelos, 615 - Aruana, Aracaju - SE, 49000-510</h3>
-            <h3 class="text-warning fs-4 mt-3"><span class="fw-bold fst-italic">Telefone:</span> 79 99946-0500 </h3>
-            <div class="d-flex justify-content-start icon-hover">
-                <i class="bi bi-whatsapp fs-3 my-auto text-warning"></i>
-                <h2 class="text-center fs-4 fw-bold mx-2 my-auto text-warning">Agende Aqui!</h2>
+             <div class="d-flex justify-content-start icon-hover">
+            <i class="bi bi-geo fs-4 text-warning icon-hover"></i>
+            <h3 class="text-center fs-6 mx-2 my-auto text-warning">Endereço: Rua Maria Salomé Nunes Vasconcelos, 615 - Aruana, Aracaju - SE, 49000-510</h3>
             </div>
+            <div class="d-flex justify-content-start icon-hover">
+                <i class="bi bi-telephone fs-4 my-auto text-warning icon-hover"></i>
+                <h3 class="text-center fs-6 mx-2 my-auto text-warning">Telefone: 79 99946-0500 </h3>
+            </div>
+            <a href="https://wa.me/5579999460500?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20Danny%20Moura%20Bronzeamento%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o" target="_blank" style="text-decoration: none;">
+                <div class="d-flex justify-content-start icon-hover">
+                    <i class="bi bi-whatsapp fs-4 my-auto text-warning icon-hover"></i>
+                    <h3 class="text-center fs-6 mx-2 my-auto text-warning">Agende Aqui!</h3>
+                </div>
+            </a>
+
         </div>
       
     </div>
@@ -160,9 +188,17 @@
 
 <section>
      <div class="d-flex justify-content-center my-4">
-            <i class="bi bi-instagram fs-1 mx-4 text-white icon-hover"></i>
-            <i class="bi bi-whatsapp fs-1 mx-4 text-white icon-hover"></i>
-            <i class="bi bi-telephone fs-1 mx-4 text-white icon-hover"></i>
+            <a href="https://www.instagram.com/dannymourabronzeamento?igsh=Y2g0ejc2cHlxZW1q" target="_blank" rel="noopener noreferrer">
+                <div class="icon-hover">
+                    <i class="bi bi-instagram fs-1 mx-4 text-white icon-hover"></i>
+                </div>
+            </a>
+            <a href="https://wa.me/5579999460500?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20Danny%20Moura%20Bronzeamento%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o" target="_blank" style="text-decoration: none;">
+                <div class="icon-hover">
+                    <i class="bi bi-whatsapp fs-1 mx-4 text-white icon-hover"></i>
+                </div>
+            </a>
+           
     </div>
     <div class="mx-auto mb-4">
         <h4 class="fs-6 text-white text-center fst-italic">© copywrite - Todos os direitos reservados para Danny Moura Bronzeamento - <span id="ano"></span></h4>
