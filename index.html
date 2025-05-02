@@ -42,7 +42,7 @@
             font-size: .5rem;
         }
         .small-font {
-            font-size:.75rem
+            font-size:.7rem
         }
         .anime1.animate__animated.animate__backInLeft {
             --animate-duration: .4s;
@@ -95,12 +95,12 @@
 <!--Seção do card de serviços -->
 <section >
     <h2 class="text-center text-white fs-4">Nossos Serviços</h2>
-    <div class="d-flex row justify-content-between my-2 mx-2 gap-1">
+    <div class="d-flex flex-wrap row justify-content-between my-2 mx-2 gap-3">
         <div class="col mb-4 laranja-bg p-2 rounded-2">
             <div class="card h-100 anime1 animate__animated  animate__backInLeft">
                 <img src="./img/bronze_natural.jpg" class="card-img-top img-fluid p-2 rounded-4 w-75 mx-auto" alt="" style="height: 12rem">
                 <div class="card-body">
-                    <h3 class="fs-6 text-center bg-success rounded-2 p-2 text-white">Bronzeamento natural</h2>
+                    <h3 class="fs-6 text-center bg-success rounded-2 p-2 text-white">Bronzeamento turbo</h2>
                     <p class="card-text small-font text-center">Bronzeamento natural, com técnica segura e produtos de qualidade para um tom dourado, uniforme e duradouro.</p>
                 </div>
             </div>
@@ -118,7 +118,7 @@
             <div class="card h-100 anime2 animate__animated  animate__backInLeft">
                 <img src="./img/banho_sol.jpg" class="card-img-top img-fluid p-2 rounded-4 w-75 mx-auto" alt="" style="height: 12rem">
                 <div class="card-body">
-                    <h3 class="fs-6 text-center bg-success rounded-2 p-2 text-white">Banho de sol</h3>
+                    <h3 class="fs-6 text-center bg-success rounded-2 p-2 mx-4 text-white">Banho de sol</h3>
                     <p class="card-text small-font text-center">Sessão controlada de exposição ao sol para ativar a melanina e potencializar o bronzeado de forma natural e segura.</p>
                 </div>
             </div>
@@ -135,44 +135,82 @@
     </div> 
 </section>
 
+<!--Tabela de preços-->
+
+<section class="laranja-bg py-4">
+    <h2 class="text-center text-white fs-4">Tabela de Preços</h2>
+    <div>
+        <table class="table table-hover table-responsive mx-auto my-4" style="width: 45%;">
+            <thead>
+                <tr class="text-start">
+                    <th scope="col" class="text-warning fst-italic">Serviço</th>
+                    <th scope="col" class="text-warning fst-italic">Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="text-start">
+                    <td class="text-warning fst-italic">Bronze Turbo</td>
+                    <td class="text-warning fst-italic">R$ 65,00</td>
+                </tr>
+                <tr class="text-start">
+                    <td class="text-warning fst-italic">Bronze Sol + Máquina</td>
+                    <td class="text-warning fst-italic">R$ 150,00</td>
+                </tr>
+                <tr class="text-start">
+                    <td class="text-warning fst-italic">Bronze a Jato</td>
+                    <td class="text-warning fst-italic">R$ 120,00</td>
+                </tr>
+                <tr class="text-start">
+                    <td class="text-warning fst-italic">Bronze Luxo Sem Sol</td>
+                    <td class="text-warning fst-italic">R$ 130,00</td>
+                </tr>
+                <tr class="text-start">
+                    <td class="text-warning">Descoloração de Pelos</td>
+                    <td class="text-warning">R$ 20,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
 <!--Seção de agendamento-->
-<section class="container bg-white">
+<section class="container bg-white my-4">
     <a href="https://wa.me/5579999460500?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20Danny%20Moura%20Bronzeamento%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o" target="_blank" style="text-decoration: none;">
         <div class="d-flex justify-content-center p-1 icon-hover">
-            <i class="bi bi-whatsapp fs-3 my-auto text-warning mx-2"></i>
-            <h3 class="text-center fs-3 fw-semibold my-auto text-warning">Agende Aqui!</h3>
+            <i class="bi bi-whatsapp fs-4 my-auto text-warning mx-2"></i>
+            <h3 class="text-center fs-4 fw-semibold my-auto text-warning">Agende Aqui!</h3>
         </div>
     </a>
 </section>
             
 <!--Seção de Depoimentos de Clientes-->
 <section class="laranja-bg">
-    <h2 class="text-center text-white mt-4 fs-4">Depoimentos de Clientes</h2>
+    <h2 class="text-center text-white my-4 fs-4">Depoimentos de Clientes</h2>
     <div class="d-flex flex-wrap justify-content-around row mx-auto p-2">
-        <div class="col-3 mb-4 anime1 animate__animated  animate__backInLeft">
+        <div class="col mb-4 anime1 animate__animated  animate__backInLeft">
             <div class="card mx-auto h-100">
                 <img src="./img/mary.jpeg" class="card-img-top img-fluid rounded-circle mx-auto p-2" alt="" style="height: 10rem; width: 10rem">
                 <div class="card-body bg-warning-subtle">
                     <h3 class="fs-5 text-center">Mary</h3>
-                    <p class="card-text smaller-font fw-lighter fst-italic text-center">"Simplesmente apaixonada pelo Danny Moura Bronzeamento! O atendimento é impecável, o ambiente super aconchegante e o serviço de altíssima qualidade. O resultado foi incrível, com um bronzeado uniforme e natural. Confio totalmente no profissionalismo da equipe e recomendo de olhos fechados!"</p>
+                    <p class="card-text small-font fw-lighter fst-italic text-center">"Simplesmente apaixonada pelo Danny Moura Bronzeamento! O atendimento é impecável, o ambiente super aconchegante e o serviço de altíssima qualidade. O resultado foi incrível, com um bronzeado uniforme e natural. Confio totalmente no profissionalismo da equipe e recomendo de olhos fechados!"</p>
                 </div>
             </div>
         </div>
-        <div class="col-3 mb-4 anime2 animate__animated  animate__backInRight">
+        <div class="col mb-4 anime2 animate__animated  animate__backInRight">
             <div class="card mx-auto h-100">
                 <img src="./img/anaIzabel.jpeg" class="card-img-top img-fluid rounded-circle mx-auto p-2" alt="" style="height: 10rem; width: 10rem" >
                 <div class="card-body bg-warning-subtle">
                     <h3 class="fs-5 text-center">Ana Izabel</h3>
-                    <p class="card-text fw-lighter fst-italic smaller-font text-center ">"Não tinha o hábito de fazer bronzeamento, a não ser ficando horas no sol, não ficava com um visual bonito. Conhecendo o espaço entendi que sempre fiz errado. Lá fazemos o bronze com a pele preparada, produtos de qualidade, tempo correto ao sol e sendo monitorada por uma profissional qualificada. Bronze perfeito, super recomendo!"</p>
+                    <p class="card-text fw-lighter fst-italic small-font text-center ">"Não tinha o hábito de fazer bronzeamento, a não ser ficando horas no sol, não ficava com um visual bonito. Conhecendo o espaço entendi que sempre fiz errado. Lá fazemos o bronze com a pele preparada, produtos de qualidade, tempo correto ao sol e sendo monitorada por uma profissional qualificada. Bronze perfeito, super recomendo!"</p>
                 </div>
             </div>
         </div>
-        <div class="col-3 mb-4">
+        <div class="col mb-4">
             <div class="card mx-auto h-100 anime3 animate__animated  animate__backInLeft">
                 <img src="./img/Thiane.jpeg" class="card-img-top img-fluid rounded-circle mx-auto p-2" alt="" style="height: 10rem; width: 10rem">
                 <div class="card-body bg-warning-subtle">
                     <h3 class="fs-5 text-center">Thiane Alves</h3>
-                    <p class="card-text fw-lighter fst-italic smaller-font text-center">“Vc tem uma energia incrível me deixou super a vontade, eu tenho a autoestima que oscila o tempo inteiro e depois do seu bronze tô me achando uma Gostosa 🤭”</p>
+                    <p class="card-text fw-lighter fst-italic small-font text-center">“Vc tem uma energia incrível me deixou super a vontade, eu tenho a autoestima que oscila o tempo inteiro e depois do seu bronze tô me achando uma Gostosa 🤭”</p>
                 </div>
             </div>
         </div>
@@ -190,16 +228,16 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.1069244037253!2d-37.0914084!3d-10.8794715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab114dbd99bf7%3A0x9995d30b0e063b2e!2sDanny%20Moura%20Brozeamento%20Natural%20Bronze%20Gelado%20Sal%C3%A3o%20e%20Studio!5e0!3m2!1spt-BR!2sbr!4v1743341182981!5m2!1spt-BR!2sbr" width="100%" height="120%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="col-10 m-auto">
-             <div class="d-flex justify-content-center icon-hover">
-                <i class="bi bi-geo fs-6 text-warning icon-hover"></i>
-                <h3 class="text-center fs-6 mx-2 my-auto text-warning">Endereço: Rua Maria Salomé Nunes Vasconcelos, 615 - Aruana, Aracaju - SE, 49000-510</h3>
+             <div class="d-flex justify-content-center">
+                <i class="bi bi-geo fs-6 text-warning"></i>
+                <h3 class="text-center small-font mx-2 my-auto text-warning">Endereço: Rua Maria Salomé Nunes Vasconcelos, 615 - Aruana, Aracaju - SE, 49000-510</h3>
             </div>
-            <div class="d-flex justify-content-center icon-hover">
-                <i class="bi bi-telephone fs-6 my-auto text-warning icon-hover"></i>
-                <h3 class="text-center fs-6 mx-2 my-auto text-warning">Telefone: 79 99946-0500 </h3>
+            <div class="d-flex justify-content-center">
+                <i class="bi bi-telephone small-font my-auto text-warning"></i>
+                <h3 class="text-center small-font mx-2 my-auto text-warning">Telefone: 79 99946-0500 </h3>
             </div>
             <a href="https://wa.me/5579999460500?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20Danny%20Moura%20Bronzeamento%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o" target="_blank" style="text-decoration: none;">
-                <div class="d-flex justify-content-center icon-hover">
+                <div class="d-flex justify-content-center icon-hover my-2">
                     <i class="bi bi-whatsapp fs-6 my-auto text-warning icon-hover"></i>
                     <h3 class="text-center fs-6 mx-2 my-auto text-warning">Agende Aqui!</h3>
                 </div>
@@ -208,7 +246,7 @@
     </div>
 </section>
 
-<section class="laranja-bg">
+<section class="laranja-bg py-4">
     <div class="d-flex justify-content-center">
             <a href="https://www.instagram.com/dannymourabronzeamento?igsh=Y2g0ejc2cHlxZW1q" target="_blank" rel="noopener noreferrer">
                 <div class="icon-hover">
@@ -221,8 +259,8 @@
                 </div>
             </a>
     </div>
-    <div class="mx-auto">
-        <h4 class="fs-6 fw-lighter text-white text-center fst-italic">© copywrite <span id="ano"></span> - Todos os direitos reservados para Danny Moura Bronzeamento </h4>
+    <div class="mx-auto mt-4">
+        <h4 class="small-font fw-lighter text-white text-center fst-italic">© copywrite <span id="ano"></span> - Todos os direitos reservados para Danny Moura Bronzeamento </h4>
     </div>
 </section>
 
