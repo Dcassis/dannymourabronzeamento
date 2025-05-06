@@ -44,6 +44,9 @@
         .small-font {
             font-size:.7rem
         }
+        .icon-font {
+            font-size: 2rem
+        }
         .anime1.animate__animated.animate__backInLeft {
             --animate-duration: .4s;
         }
@@ -70,12 +73,12 @@
         <div class="d-flex justify-content-end my-auto">
             <a href="https://www.instagram.com/dannymourabronzeamento?igsh=Y2g0ejc2cHlxZW1q" target="_blank" rel="noopener noreferrer">
                 <div class="icon-hover">
-                    <i class="bi bi-instagram fs-1 mx-4 text-warning icon-hover"></i>
+                    <i class="bi bi-instagram icon-font mx-4 text-warning icon-hover"></i>
                 </div>
             </a>
              <a href="https://wa.me/5579999460500?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20Danny%20Moura%20Bronzeamento%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o" target="_blank" style="text-decoration: none;">
                 <div class="icon-hover">
-                    <i class="bi bi-whatsapp fs-1 mx-4 text-warning icon-hover"></i>
+                    <i class="bi bi-whatsapp icon-font mx-4 text-warning icon-hover"></i>
                 </div>
             </a>
         </div>
@@ -95,8 +98,8 @@
 <!--Seção do card de serviços -->
 <section >
     <h2 class="text-center text-white fs-4">Nossos Serviços</h2>
-    <div class="d-flex flex-wrap row justify-content-between my-2 mx-2 gap-3">
-        <div class="col mb-4 laranja-bg p-2 rounded-2">
+    <div class="d-flex flex-wrap row justify-content-between my-2 mx-auto gap-1">
+        <div class="col-sm mb-4 laranja-bg p-2 rounded-2 w-75 mx-auto">
             <div class="card h-100 anime1 animate__animated  animate__backInLeft">
                 <img src="./img/bronze_natural.jpg" class="card-img-top img-fluid p-2 rounded-4 w-75 mx-auto" alt="" style="height: 12rem">
                 <div class="card-body">
@@ -105,7 +108,7 @@
                 </div>
             </div>
         </div>
-        <div class="col mb-4 laranja-bg p-2 rounded-2">
+        <div class="col-sm mb-4 laranja-bg p-2 rounded-2 w-75 mx-auto">
             <div class="card h-100 anime3 animate__animated  animate__backInRight">
                 <img src="./img/bronze_jato.jpeg" class="card-img-top img-fluid p-2 rounded-4 w-75 mx-auto" alt="" style="height: 12rem">
                 <div class="card-body">
@@ -114,7 +117,7 @@
                 </div>
             </div>
         </div> 
-        <div class="col mb-4 laranja-bg p-2 rounded-2">
+        <div class="col-sm mb-4 laranja-bg p-2 rounded-2 w-75 mx-auto">
             <div class="card h-100 anime2 animate__animated  animate__backInLeft">
                 <img src="./img/banho_sol.jpg" class="card-img-top img-fluid p-2 rounded-4 w-75 mx-auto" alt="" style="height: 12rem">
                 <div class="card-body">
@@ -123,7 +126,7 @@
                 </div>
             </div>
         </div>  
-        <div class="col mb-4 laranja-bg p-2 rounded-2">
+        <div class="col-sm mb-4 laranja-bg p-2 rounded-2 w-75 mx-auto">
             <div class="card h-100 anime4 animate__animated  animate__backInRight">
                 <img src="./img/pelos-descoloridos.webp" class="card-img-top img-fluid p-2 rounded-4 w-75 mx-auto" alt="" style="height: 12rem">
                 <div class="card-body">
@@ -140,14 +143,14 @@
 <section class="laranja-bg py-4">
     <h2 class="text-center text-white fs-4">Tabela de Preços</h2>
     <div>
-        <table class="table table-hover table-responsive mx-auto my-4" style="width: 70%;">
+        <table class="table table-hover table-responsive table-striped mx-auto my-4 w-75">
             <thead>
                 <tr class="text-start">
-                    <th scope="col" class="text-warning fst-italic">Serviço</th>
-                    <th scope="col" class="text-warning fst-italic">Preço</th>
+                    <th scope="col" class="text-white bg-warning fst-italic">Serviço</th>
+                    <th scope="col" class="text-white bg-warning fst-italic">Preço</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="table table-striped">
                 <tr class="text-start">
                     <td class="text-warning fst-italic">Bronze Turbo</td>
                     <td class="text-warning fst-italic">R$ 65,00</td>
@@ -178,7 +181,7 @@
 </section>
 
 <!--Seção de agendamento-->
-<section class="container bg-white my-4">
+<section class="bg-white my-4">
     <a href="https://wa.me/5579999460500?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20Danny%20Moura%20Bronzeamento%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o" target="_blank" style="text-decoration: none;">
         <div class="d-flex justify-content-center p-1 icon-hover">
             <i class="bi bi-whatsapp fs-4 my-auto text-warning mx-2"></i>
@@ -190,31 +193,31 @@
 <!--Seção de Depoimentos de Clientes-->
 <section class="laranja-bg">
     <h2 class="text-center text-white my-4 fs-4">Depoimentos de Clientes</h2>
-    <div class="d-flex flex-wrap justify-content-around row mx-auto p-2">
-        <div class="col mb-4 anime1 animate__animated  animate__backInLeft">
+    <div class="d-flex flex-wrap justify-content-around row mx-auto p-2 w-75">
+        <div class="col-sm mb-4 anime1 animate__animated  animate__backInLeft">
             <div class="card mx-auto h-100">
-                <img src="./img/mary.jpeg" class="card-img-top img-fluid rounded-circle mx-auto p-2" alt="" style="height: 10rem; width: 10rem">
+                <img src="./img/mary.jpeg" class="card-img-top img-fluid rounded-circle mx-auto p-2 w-50" alt="">
                 <div class="card-body bg-warning-subtle">
                     <h3 class="fs-5 text-center">Mary</h3>
-                    <p class="card-text small-font fw-lighter fst-italic text-center">"Simplesmente apaixonada pelo Danny Moura Bronzeamento! O atendimento é impecável, o ambiente super aconchegante e o serviço de altíssima qualidade. O resultado foi incrível, com um bronzeado uniforme e natural. Confio totalmente no profissionalismo da equipe e recomendo de olhos fechados!"</p>
+                    <p class="card-text small-font fw-lighter fst-italic text-center px-2">"Simplesmente apaixonada pelo Danny Moura Bronzeamento! O atendimento é impecável, o ambiente super aconchegante e o serviço de altíssima qualidade. O resultado foi incrível, com um bronzeado uniforme e natural. Confio totalmente no profissionalismo da equipe e recomendo de olhos fechados!"</p>
                 </div>
             </div>
         </div>
-        <div class="col mb-4 anime2 animate__animated  animate__backInRight">
+        <div class="col-sm mb-4 anime2 animate__animated  animate__backInRight">
             <div class="card mx-auto h-100">
-                <img src="./img/anaIzabel.jpeg" class="card-img-top img-fluid rounded-circle mx-auto p-2" alt="" style="height: 10rem; width: 10rem" >
+                <img src="./img/anaIzabel.jpeg" class="card-img-top img-fluid rounded-circle mx-auto p-2 w-50" alt="" >
                 <div class="card-body bg-warning-subtle">
                     <h3 class="fs-5 text-center">Ana Izabel</h3>
-                    <p class="card-text fw-lighter fst-italic small-font text-center ">"Não tinha o hábito de fazer bronzeamento, a não ser ficando horas no sol, não ficava com um visual bonito. Conhecendo o espaço entendi que sempre fiz errado. Lá fazemos o bronze com a pele preparada, produtos de qualidade, tempo correto ao sol e sendo monitorada por uma profissional qualificada. Bronze perfeito, super recomendo!"</p>
+                    <p class="card-text fw-lighter fst-italic small-font text-center px-2">"Não tinha o hábito de fazer bronzeamento, a não ser ficando horas no sol, não ficava com um visual bonito. Conhecendo o espaço entendi que sempre fiz errado. Lá fazemos o bronze com a pele preparada, produtos de qualidade, tempo correto ao sol e sendo monitorada por uma profissional qualificada. Bronze perfeito, super recomendo!"</p>
                 </div>
             </div>
         </div>
-        <div class="col mb-4">
+        <div class="col-sm mb-4">
             <div class="card mx-auto h-100 anime3 animate__animated  animate__backInLeft">
-                <img src="./img/Thiane.jpeg" class="card-img-top img-fluid rounded-circle mx-auto p-2" alt="" style="height: 10rem; width: 10rem">
+                <img src="./img/Thiane.jpeg" class="card-img-top img-fluid rounded-circle mx-auto p-2 w-50" alt="">
                 <div class="card-body bg-warning-subtle">
                     <h3 class="fs-5 text-center">Thiane Alves</h3>
-                    <p class="card-text fw-lighter fst-italic small-font text-center">“Vc tem uma energia incrível me deixou super a vontade, eu tenho a autoestima que oscila o tempo inteiro e depois do seu bronze tô me achando uma Gostosa 🤭”</p>
+                    <p class="card-text fw-lighter fst-italic small-font text-center px-2">“Vc tem uma energia incrível me deixou super a vontade, eu tenho a autoestima que oscila o tempo inteiro e depois do seu bronze tô me achando uma Gostosa 🤭”</p>
                 </div>
             </div>
         </div>
@@ -233,16 +236,16 @@
         </div>
         <div class="col-10 m-auto">
              <div class="d-flex justify-content-center">
-                <i class="bi bi-geo fs-6 text-warning"></i>
+                <i class="bi bi-geo icon-font text-warning"></i>
                 <h3 class="text-center small-font mx-2 my-auto text-warning">Endereço: Rua Maria Salomé Nunes Vasconcelos, 615 - Aruana, Aracaju - SE, 49000-510</h3>
             </div>
             <div class="d-flex justify-content-center">
-                <i class="bi bi-telephone small-font my-auto text-warning"></i>
+                <i class="bi bi-telephone icon-font my-auto text-warning"></i>
                 <h3 class="text-center small-font mx-2 my-auto text-warning">Telefone: 79 99946-0500 </h3>
             </div>
             <a href="https://wa.me/5579999460500?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20Danny%20Moura%20Bronzeamento%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o" target="_blank" style="text-decoration: none;">
                 <div class="d-flex justify-content-center icon-hover my-2">
-                    <i class="bi bi-whatsapp fs-6 my-auto text-warning icon-hover"></i>
+                    <i class="bi bi-whatsapp icon-font my-auto text-warning icon-hover"></i>
                     <h3 class="text-center fs-6 mx-2 my-auto text-warning">Agende Aqui!</h3>
                 </div>
             </a>
@@ -254,12 +257,12 @@
     <div class="d-flex justify-content-center">
             <a href="https://www.instagram.com/dannymourabronzeamento?igsh=Y2g0ejc2cHlxZW1q" target="_blank" rel="noopener noreferrer">
                 <div class="icon-hover">
-                    <i class="bi bi-instagram fs-1 mx-4 text-white icon-hover"></i>
+                    <i class="bi bi-instagram icon-font mx-4 text-white icon-hover"></i>
                 </div>
             </a>
             <a href="https://wa.me/5579999460500?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20Danny%20Moura%20Bronzeamento%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o" target="_blank" style="text-decoration: none;">
                 <div class="icon-hover">
-                    <i class="bi bi-whatsapp fs-1 mx-4 text-white icon-hover"></i>
+                    <i class="bi bi-whatsapp icon-font mx-4 text-white icon-hover"></i>
                 </div>
             </a>
     </div>
